@@ -14,21 +14,21 @@ const TeamDetails = () => {
       </p>
       <div className=" flex flex-col gap-3">
         <Team
-          img={"/image 1.webp"}
+          img={"/image_1.webp"}
           Name={"Sandeep Nailwal"}
           designation={"Co-Founder"}
           organization={"Polygon"}
           about={text}
         />
         <Team
-          img={"/image 2.webp"}
+          img={"/image_2.webp"}
           Name={"Siddharth Malik"}
           designation={"Global CEO"}
           organization={"CleverTap"}
           about={text}
         />
         <Team
-          img={"/image 3.webp"}
+          img={"/image_3.webp"}
           Name={"Navin Gupta"}
           designation={"Managing Director"}
           organization={"Ripple"}
