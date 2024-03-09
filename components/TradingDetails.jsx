@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { IoTriangleSharp } from "react-icons/io5";
 import Trading from "@/components/atom/Trading";
-import Loading from "@/components/loading";
+import Loading from "@/components/Loading";
 
 const TradingDetails = () => {
   const [values, setvalues] = useState([]);
