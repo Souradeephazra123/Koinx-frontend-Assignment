@@ -1,0 +1,42 @@
+export const SentimentData = [
+  {
+    id: 1,
+    img: "/logo/Ethereum.svg",
+    style: "bg-red-200",
+    style1: "bg-red-500",
+    heading: ";fjep pewfnpwe wef  i orewr ewo rwr ewjr wer;jwer'r'q",
+    text: "lorem dlf asdjf asdfjs aspofjweh weofrhw weohw erld alefnlawenfwe e wpqwpqnwefwenkl welwwhoqwbii webi wib d ie fieiwe fiowefwi ifewhi fw efoiw foiwea foiewf ie fiosdf ewif wi fiw flie fho fs f;ofowe;fwefeofo  fhwe of hewofhao o eifoawe fo foae fo;ahefo wehy hp hsof",
+  },
+  {
+    id: 2,
+    img: "/logo/Polygon MATIC Icon.svg",
+    style: "bg-blue-200",
+    style1: "bg-blue-500",
+    heading: "fjep pewfnpwe wef  i orewr ewo rwr ewjr wer;jwer'r'q",
+    text: "lorem dlf asdjf asdfjs aspofjweh weofrhw weohw erld alefnlawenfwe e wpqwpqnwefwenkl welwwhoqwbii webi wib d ie fieiwe fiowefwi ifewhi fw efoiw foiwea foiewf ie fiosdf ewif wi fiw flie fho fs f;ofowe;fwefeofo  fhwe of hewofhao o eifoawe fo foae fo;ahefo wehy hp hsof",
+  },
+  {
+    id: 3,
+    img: "/logo/Bitcoin BTC Icon.svg",
+    style: "bg-green-200",
+    styl1: "bg-green-500",
+    heading: ";fjep pewfnpwe wef  i orewr ewo rwr ewjr wer;jwer'r'q",
+    text: "lorem dlf asdjf asdfjs aspofjweh weofrhw weohw erld alefnlawenfwe e wpqwpqnwefwenkl welwwhoqwbii webi wib d ie fieiwe fiowefwi ifewhi fw efoiw foiwea foiewf ie fiosdf ewif wi fiw flie fho fs f;ofowe;fwefeofo  fhwe of hewofhao o eifoawe fo foae fo;ahefo wehy hp hsof",
+  },
+  {
+    id: 4,
+    img: "/logo/Ethereum.svg",
+    style: "bg-yellow-200",
+    style1: "bg-yellow-500",
+    heading: ";fjep pewfnpwe wef  i orewr ewo rwr ewjr wer;jwer'r'q",
+    text: "lorem dlf asdjf asdfjs aspofjweh weofrhw weohw erld alefnlawenfwe e wpqwpqnwefwenkl welwwhoqwbii webi wib d ie fieiwe fiowefwi ifewhi fw efoiw foiwea foiewf ie fiosdf ewif wi fiw flie fho fs f;ofowe;fwefeofo  fhwe of hewofhao o eifoawe fo foae fo;ahefo wehy hp hsof",
+  },
+  {
+    id: 5,
+    img: "/logo/Polygon MATIC Icon.svg",
+    style: " bg-pink-200",
+    style1: " bg-pink-500",
+    heading: ";fjep pewfnpwe wef  i orewr ewo rwr ewjr wer;jwer'r'q",
+    text: "lorem dlf asdjf asdfjs aspofjweh weofrhw weohw erld alefnlawenfwe e wpqwpqnwefwenkl welwwhoqwbii webi wib d ie fieiwe fiowefwi ifewhi fw efoiw foiwea foiewf ie fiosdf ewif wi fiw flie fho fs f;ofowe;fwefeofo  fhwe of hewofhao o eifoawe fo foae fo;ahefo wehy hp hsof",
+  },
+];
