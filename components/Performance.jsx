@@ -2,6 +2,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { FaCircleExclamation } from "react-icons/fa6";
+import { IoTriangleSharp } from "react-icons/io5";
 
 const Performance = () => {
   const [active, setactive] = useState("Overview");
@@ -50,6 +51,9 @@ const Performance = () => {
       parseFloat(BitcoinData.market_data.market_cap.usd / sum) * 100;
   }
 
+  const leftValue = ((48637.83 - 46930.22) / (49343.83 - 46930.22)) * 100;
+  console.log(leftValue);
+
   return (
     <div>
       <div className="flex overflow-x-auto mb-5" style={{ scrollbarWidth: 0 }}>
@@ -76,23 +80,35 @@ const Performance = () => {
           <div className=" flex justify-between items-center">
             <div className=" flex flex-col gap-2">
               <span className=" whitespace-nowrap">Today's Low</span>
-              <span>46930.22</span>
+              <span>46,930.22</span>
             </div>
-            <div className="line sm:w-[500px] w-[100px] h-1 rounded-full "></div>
+            <div className="line sm:w-[500px] w-[100px] h-1 rounded-full relative ">
+              <div
+                className=" flex flex-col gap-1"
+                style={{ position: "absolute", top: 0, left: `${leftValue}%` }}
+              >
+                <IoTriangleSharp
+                  color="black"
+                  size={10}
+                  // className={` absolute top-0 left-[${leftValue}%]`}
+                />
+                <span>$48637.83</span>
+              </div>
+            </div>
             <div className=" flex flex-col gap-2">
               <span className=" whitespace-nowrap">Today's High</span>
-              <span>49343.83</span>
+              <span>49,343.83</span>
             </div>
           </div>
           <div className=" flex justify-between items-center">
             <div className=" flex flex-col gap-2">
               <span className=" whitespace-nowrap">52w Low</span>
-              <span>16930.22</span>
+              <span>16,930.22</span>
             </div>
             <div className="line sm:w-[500px] w-[100px]  h-1 rounded-full "></div>
             <div className=" flex flex-col gap-2">
               <span className=" whitespace-nowrap">52w High</span>
-              <span>49743.83</span>
+              <span>49,743.83</span>
             </div>
           </div>
         </div>
