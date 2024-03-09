@@ -14,7 +14,7 @@ const nextConfig = {
     domains: ["assets.coingecko.com"],
     // domains: ["images.unsplash.com"],
   },
-  distDir: "build",
+  // distDir: "build",
   experimental: {
     missingSuspenseWithCSRBailout: false,
   },
