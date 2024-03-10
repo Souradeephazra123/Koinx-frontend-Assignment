@@ -4,6 +4,7 @@ import Header from "@/components/Header";
 import YouMayAlsoLike from "@/components/YouMayAlsoLike";
 import TrendingCoin from "@/components/TrendingCoin";
 import Breadcrumbs from "@/components/Breadcrumbs";
+import Progressbar from "@/components/ProgressBar";
 const inter = Inter({ subsets: ["latin"] });
 export const metadata = {
   title: "Create Next App",
@@ -14,6 +15,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Header />
+        <Progressbar />
         <Breadcrumbs />
         {children}
         <div className=" sm:block hidden">

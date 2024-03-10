@@ -11,6 +11,7 @@ import TradingDetails from "@/components/TradingDetails";
 export default function Home() {
   return (
     <main className=" w-full px-[10px] sm:px-[50px] pb-[50px] flex sm:flex-row flex-col justify-between gap-8 bg-gray-200 font-sans ">
+      
       <div className=" sm:w-2/3 w-full flex flex-col gap-5">
         <TradingDetails />
         <Performance />
